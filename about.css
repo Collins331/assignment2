@@ -1,0 +1,35 @@
+.grid-container{
+    /* display: grid;
+    display: inline-grid; */
+    display: flex;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.bike img {
+
+    border-radius: 20px;
+    margin: 20px;
+}
+.car-boy img {
+    border-radius: 20px;
+    margin: 20px;
+}
+.bike h1, .bike p{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    text-align: right;
+}
+.bike P{
+    font-size: 2em;
+}
+.bike h1{
+    font-size: 6em;
+    margin-right: 200px;
+}
